@@ -1,3 +1,39 @@
 // Place all the styles related to the Api::Pokemon controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pokemon-index-item a {
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+  border-bottom: 1px black solid;
+  padding: 3px 0;
+  justify-content: space-around;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+.pii-child {
+  margin: 0px 7px;
+  list-style-type: none;
+}
+
+
+.pokemon-page{
+  display: flex;
+}
+.pokemon-list{
+    flex: 1;
+}
+.pokemon-detail{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin: 15px auto;
+  border: 1px black solid;
+  padding: 15px;
+  align-items: center;
+}
